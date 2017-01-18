@@ -19,4 +19,6 @@ etc.
 To find the best schedule simple VNS heuristics is used, it tries to minimalize custom objective function. Solution's quality depends on number of lessons, gaps in the schedule and some hard limits. 
 
 ### Technical notes
-Input file is a .csv file with availability information. The script is adapted to .csv generated from availability form created in Google Forms – here is an example form: http://bit.ly/2k3TxGN.
+Input file is a .csv file with availability information. The script is adapted to .csv generated from availability form created in Google Forms – here is an example form: http://bit.ly/2k3TxGN. An example .csv file: [availability_form.csv](availability_form.csv).
+
+If there are multiple entries of the same person, only the last entry is considered valid.
